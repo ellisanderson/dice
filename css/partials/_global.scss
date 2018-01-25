@@ -19,33 +19,46 @@ body{
 
 .values{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 50%;
-  margin-bottom: 10vh;
+  margin-bottom: 5vw;
 
   .value{
+    width: 45%;
     text-align: center;
 
     h1{
       font-size: 3vw;
       color:#E26568;
+      margin: 0;
+      padding:10% 0;
     }
 
     .dice{
       font-size: 20vw;
       font-weight: 100;
     }
+
+    #dice-side-1{
+      background-color: white;
+    }
+
+    #dice-side-2{
+      background-color: black;
+      color:white;
+    }
   }
 }
 
 button{
   font-family: inherit;
+  font-size: 2vw;
   outline:none;
   border:none;
   cursor: pointer;
-  background-color: black;
+  background-color: #E26568;
   color: white;
-  padding: 15px 30px;
+  padding: 1.5% 4%;
   text-transform: uppercase;
   letter-spacing: .1rem;
   border-radius: 100px;

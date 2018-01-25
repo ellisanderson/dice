@@ -15,26 +15,35 @@ body {
 
 .values {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 50%;
-  margin-bottom: 10vh; }
+  margin-bottom: 5vw; }
   .values .value {
+    width: 45%;
     text-align: center; }
     .values .value h1 {
       font-size: 3vw;
-      color: #E26568; }
+      color: #E26568;
+      margin: 0;
+      padding: 10% 0; }
     .values .value .dice {
       font-size: 20vw;
       font-weight: 100; }
+    .values .value #dice-side-1 {
+      background-color: white; }
+    .values .value #dice-side-2 {
+      background-color: black;
+      color: white; }
 
 button {
   font-family: inherit;
+  font-size: 2vw;
   outline: none;
   border: none;
   cursor: pointer;
-  background-color: black;
+  background-color: #E26568;
   color: white;
-  padding: 15px 30px;
+  padding: 1.5% 4%;
   text-transform: uppercase;
   letter-spacing: .1rem;
   border-radius: 100px;
